@@ -1,0 +1,22 @@
+.i {
+    font-weight: 900;
+    font-family: :FontAwsome;
+}
+.alt-header {
+    padding: var(--horizontal-space);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.alt-header__title {
+    font-size: 28px;
+    font-weight: bold;
+}
+.alt-header__column:first-child {
+    margin-right: auto;
+}
+.alt-header__column:last-child {
+    margin-left: auto;
+}
