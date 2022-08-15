@@ -1,6 +1,6 @@
 #chat-screen {
     background-color: var(--yellow);
-    height: 11000vh;
+    height: 500vh;
 }
 #chat-screen .alt-header,
 #chat-screen .status-bar{
@@ -101,7 +101,7 @@ bottom:0px;
 }
 .reply i {
     opacity: 0.5;
-    margin:10px;
+    margin:5px;
 }
 .reply input {
     padding: 12px;
@@ -119,8 +119,8 @@ bottom:0px;
     align-items: center;
 }
 .reply__column:last-child > i {
-    right: 40px;
-    top:10px;
+    right: 30px;
+    top:15px;
 }
 .reply__column button {
     background-color: var(--yellow);
